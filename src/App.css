@@ -1,0 +1,78 @@
+:root{
+  --mainBlue:#3939a7;
+  --lightBlue:#48b6f7;
+  --mainWhite:#fff;
+  --mainDark:#232528;
+  --mainYellow:#1dbc0b;
+  --mainProduct:#388287;
+}
+body {
+font-family: 'Josefin Sans', sans-serif !important;
+vertical-align: middle;
+
+/* font-family: 'Manjari', sans-serif !important; */
+
+/* font-family: 'Fira Sans', sans-serif !important; */
+
+/* font-family: 'Oswald', sans-serif !important; */
+
+/* font-family: 'Josefin Sans', sans-serif !important; */
+background: var(--mainWhite) !important;
+color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Josefin Sans', sans-serif !important;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: var(--mainProduct);
+}
+
+.text-blue {
+  color: var(--mainProduct);
+}
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black{
+  background:transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color:rgba(255, 0, 0, 0.954) !important;
+  /* border:none; */
+  border-radius: 50% !important;
+  border: 0.07rem solid rgba(0, 0, 0, 0.249) !important;
+}
+.btn-black:hover {
+  cursor: pointer;
+  background: rgba(252, 3, 3, 0.393) !important;
+  color:var(--mainWhite)!important;
+}
+.cart-icon{
+  cursor: pointer;
+  font-size:1.2rem;
+  color: #f53d3dad;
+}
+.btn-count{
+  background:transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color:var(--mainDark);
+  border: none;
+  /* border: 0.07rem solid rgba(0, 0, 0, 0.249) !important; */
+}
+.btn-plus{
+  background:transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color:rgba(11, 140, 11, 0.954) !important;
+  /* border:none; */
+  border-radius: 50% !important;
+  border: 0.07rem solid rgba(0, 0, 0, 0.249) !important;
+}
+.btn-plus:hover {
+  cursor: pointer;
+  background: rgba(15, 189, 6, 0.393) !important;
+  color:var(--mainWhite)!important;
+}
